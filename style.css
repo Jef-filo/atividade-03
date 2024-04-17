@@ -1,0 +1,21 @@
+.menu {
+    list-style-type: none; /* Remover marcadores */
+    padding: 0; /* Remover espaçamento interno */
+    display: flex; /* Fazer os itens da lista se comportarem como flex-items */
+    background-color: lightgray; /* Cor de fundo do quadrado */
+    width: 300px; /* largura do quadrado */
+    height: 50px; /* altura do quadrado */
+    border: 1px solid black; /* borda do quadrado */
+}
+
+/* Estilizando os itens da lista */
+.menu li {
+    flex: 1; /* Ocupar todo o espaço disponível */
+    text-align: center; /* Centralizar texto horizontalmente */
+    line-height: 50px; /* Centralizar texto verticalmente */
+    border-right: 1px solid white; /* Adicionar borda direita entre os itens */
+}
+
+.dentro:hover {background-color: rgb(168, 141, 141); /* Cor de fundo do quadrado */ }
+
+
